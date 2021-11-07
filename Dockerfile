@@ -1,6 +1,6 @@
 #
-FROM debian:stretch-slim
-MAINTAINER https://github.com/muccg/
+FROM debian:buster-slim
+MAINTAINER https://github.com/psenna/
 
 ENV USE_ACL=1
 ENV USE_AVAHI=0
